@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "destination": "cr15pykrnl/reride",
+  "rules": [
+    {
+      "pattern": "README.md",
+      "access": "public",
+      "reason": "Reviewed research introduction, portable figure source/build instructions or conceptual figure artifact."
+    },
+    {
+      "pattern": ".gitignore",
+      "access": "public",
+      "reason": "Reviewed research introduction, portable figure source/build instructions or conceptual figure artifact."
+    },
+    {
+      "pattern": "assets/reride.pdf",
+      "access": "public",
+      "reason": "Reviewed research introduction, portable figure source/build instructions or conceptual figure artifact."
+    },
+    {
+      "pattern": "assets/reride.png",
+      "access": "public",
+      "reason": "Reviewed research introduction, portable figure source/build instructions or conceptual figure artifact."
+    },
+    {
+      "pattern": "figures/reride/README.md",
+      "access": "public",
+      "reason": "Reviewed research introduction, portable figure source/build instructions or conceptual figure artifact."
+    },
+    {
+      "pattern": "figures/reride/artwork-original.png",
+      "access": "public",
+      "reason": "Reviewed research introduction, portable figure source/build instructions or conceptual figure artifact."
+    },
+    {
+      "pattern": "figures/reride/build.sh",
+      "access": "public",
+      "reason": "Reviewed research introduction, portable figure source/build instructions or conceptual figure artifact."
+    },
+    {
+      "pattern": "figures/reride/reride.tex",
+      "access": "public",
+      "reason": "Reviewed research introduction, portable figure source/build instructions or conceptual figure artifact."
+    },
+    {
+      "pattern": ".local/*",
+      "access": "private",
+      "reason": "Local governance, recovery material or transient builds."
+    },
+    {
+      "pattern": "papers/*",
+      "access": "private",
+      "reason": "Local governance, recovery material or transient builds."
+    },
+    {
+      "pattern": ".DS_Store",
+      "access": "private",
+      "reason": "Local governance, recovery material or transient builds."
+    },
+    {
+      "pattern": "AGENTS.md",
+      "access": "public",
+      "reason": "Portable project instructions and owner setup; no private source paths or credentials."
+    },
+    {
+      "pattern": "contributing.md",
+      "access": "public",
+      "reason": "Portable project instructions and owner setup; no private source paths or credentials."
+    },
+    {
+      "pattern": "release-manifest.json",
+      "access": "public",
+      "reason": "Portable artifact classifications and checksum-bound rights/privacy reviews."
+    }
+  ],
+  "reviews": [
+    {
+      "path": "assets/reride.pdf",
+      "sha256": "d282961780e8dbfaa2d0fcdc3a12167be701607dee83731def3a6d803462df87",
+      "rights": "Original conceptual illustration and authored TikZ annotations requested by repository owner. Publisher pages and original paper figures are excluded.",
+      "privacy": "Inspected full-size and README-size visual content and decoded PDF/PNG metadata. No participant photographs, private records or identifying filesystem paths."
+    },
+    {
+      "path": "assets/reride.png",
+      "sha256": "28a85c3935987468227b140b6f07a40d17b291321eed5235e362e4844972ab72",
+      "rights": "Original conceptual illustration and authored TikZ annotations requested by repository owner. Publisher pages and original paper figures are excluded.",
+      "privacy": "Inspected full-size and README-size visual content and decoded PDF/PNG metadata. No participant photographs, private records or identifying filesystem paths."
+    },
+    {
+      "path": "figures/reride/artwork-original.png",
+      "sha256": "2906f3fb420f04e8948f651a7f0d987cc849ef00096153440b838414d736a639",
+      "rights": "Original conceptual illustration and authored TikZ annotations requested by repository owner. Publisher pages and original paper figures are excluded.",
+      "privacy": "Inspected full-size and README-size visual content and decoded PDF/PNG metadata. No participant photographs, private records or identifying filesystem paths."
+    }
+  ]
+}
