@@ -15,8 +15,7 @@ before, during and after a commute?**
 later reflection. Left: the INTERACT 2017 demonstration. Right: the TEI 2019
 BANk architecture and module explorations. Hardware and screen content are
 conceptual illustrations; the 2019 paper identifies full system integration
-and evaluation as future work.* [PDF](assets/reride.pdf) ·
-[Figure sources and build instructions](figures/reride/README.md).
+and evaluation as future work.* [PDF](assets/reride.pdf).
 
 ## Publications
 
