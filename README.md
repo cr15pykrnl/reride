@@ -9,17 +9,19 @@ The two publications address a shared question: **how can posture sensing and
 feedback be integrated into the experience of riding, and support reflection
 before, during and after a commute?**
 
-![ReRide graphical abstract: the 2017 seat-pressure sensing and dashboard feedback platform, alongside the 2019 BANk architecture combining seat-pressure and camera sensing.](assets/reride.png)
+![ReRide graphical abstract: the 2017 seat-pressure sensing and dashboard feedback platform, alongside the 2019 BANk architecture combining seat-pressure and camera sensing.](figures/abstracts/assets/project.png)
 
 *ReRide connects posture sensing with feedback during a commute and data for
-later reflection. Left: the INTERACT 2017 demonstration. Right: the TEI 2019
+later reflection. Top: the INTERACT 2017 demonstration. Bottom: the TEI 2019
 BANk architecture and module explorations. Hardware and screen content are
 conceptual illustrations; the 2019 paper identifies full system integration
-and evaluation as future work.* [PDF](assets/reride.pdf).
+and evaluation as future work.* [Editable figures and source notes](figures/abstracts/README.md).
 
 ## Publications
 
 ### INTERACT 2017
+
+![INTERACT 2017 graphical abstract](figures/abstracts/assets/interact-2017.png)
 
 **ReRide: A Platform to Explore Interaction with Personal Data Before, During,
 and After Motorcycle Commuting**
@@ -40,6 +42,8 @@ Lecture Notes in Computer Science, volume 10516, Springer, pages 420–423.
 The motorcycle could soon be the new frontier for the exploration of human interaction with advanced digital technology. In this paper we present a demo of a system designed and implemented to explore the design of personal informatics tools for motorbike commuting and help us conduct in-situ evaluation of such tools. We present the system architecture and demonstrate the capabilities of the system by presenting a case instantiation in the form of an interactive soft-and-hardware prototype that collects rider’s posture data, visualizes the data on the motorbike dashboard in real-time, and pushes the data to the cloud server for later retrieval.
 
 ### TEI 2019
+
+![TEI 2019 graphical abstract](figures/abstracts/assets/tei-2019.png)
 
 **ReRide: A Bike Area Network for Embodied Self-monitoring during Motorbike
 Commute**

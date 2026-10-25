@@ -13,36 +13,6 @@
       "reason": "Reviewed research introduction, portable figure source/build instructions or conceptual figure artifact."
     },
     {
-      "pattern": "assets/reride.pdf",
-      "access": "public",
-      "reason": "Reviewed research introduction, portable figure source/build instructions or conceptual figure artifact."
-    },
-    {
-      "pattern": "assets/reride.png",
-      "access": "public",
-      "reason": "Reviewed research introduction, portable figure source/build instructions or conceptual figure artifact."
-    },
-    {
-      "pattern": "figures/reride/README.md",
-      "access": "public",
-      "reason": "Reviewed research introduction, portable figure source/build instructions or conceptual figure artifact."
-    },
-    {
-      "pattern": "figures/reride/artwork-original.png",
-      "access": "public",
-      "reason": "Reviewed research introduction, portable figure source/build instructions or conceptual figure artifact."
-    },
-    {
-      "pattern": "figures/reride/build.sh",
-      "access": "public",
-      "reason": "Reviewed research introduction, portable figure source/build instructions or conceptual figure artifact."
-    },
-    {
-      "pattern": "figures/reride/reride.tex",
-      "access": "public",
-      "reason": "Reviewed research introduction, portable figure source/build instructions or conceptual figure artifact."
-    },
-    {
       "pattern": ".local/*",
       "access": "private",
       "reason": "Local governance, recovery material or transient builds."
@@ -73,87 +43,85 @@
       "reason": "Portable artifact classifications and checksum-bound rights/privacy reviews."
     },
     {
-      "pattern": "figures/review-v1/README.md",
+      "pattern": "figures/abstracts/README.md",
       "access": "public",
-      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
     },
     {
-      "pattern": "figures/review-v1/assets/interact-2017.png",
+      "pattern": "figures/abstracts/artwork-original.png",
       "access": "public",
-      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
     },
     {
-      "pattern": "figures/review-v1/assets/project.png",
+      "pattern": "figures/abstracts/assets/interact-2017.png",
       "access": "public",
-      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
     },
     {
-      "pattern": "figures/review-v1/assets/tei-2019.png",
+      "pattern": "figures/abstracts/assets/project.png",
       "access": "public",
-      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
     },
     {
-      "pattern": "figures/review-v1/interact-2017.tex",
+      "pattern": "figures/abstracts/assets/tei-2019.png",
       "access": "public",
-      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
     },
     {
-      "pattern": "figures/review-v1/project.tex",
+      "pattern": "figures/abstracts/build.sh",
       "access": "public",
-      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
     },
     {
-      "pattern": "figures/review-v1/provenance.json",
+      "pattern": "figures/abstracts/interact-2017.tex",
       "access": "public",
-      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
     },
     {
-      "pattern": "figures/review-v1/tei-2019.tex",
+      "pattern": "figures/abstracts/project.tex",
       "access": "public",
-      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
     },
     {
-      "pattern": "figures/review-v1/visuals.tex",
+      "pattern": "figures/abstracts/provenance.json",
       "access": "public",
-      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
+    },
+    {
+      "pattern": "figures/abstracts/tei-2019.tex",
+      "access": "public",
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
+    },
+    {
+      "pattern": "figures/abstracts/visuals.tex",
+      "access": "public",
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
     }
   ],
   "reviews": [
     {
-      "path": "assets/reride.pdf",
-      "sha256": "d282961780e8dbfaa2d0fcdc3a12167be701607dee83731def3a6d803462df87",
-      "rights": "Original conceptual illustration and authored TikZ annotations requested by repository owner. Publisher pages and original paper figures are excluded.",
-      "privacy": "Inspected full-size and README-size visual content and decoded PDF/PNG metadata. No participant photographs, private records or identifying filesystem paths."
-    },
-    {
-      "path": "assets/reride.png",
-      "sha256": "28a85c3935987468227b140b6f07a40d17b291321eed5235e362e4844972ab72",
-      "rights": "Original conceptual illustration and authored TikZ annotations requested by repository owner. Publisher pages and original paper figures are excluded.",
-      "privacy": "Inspected full-size and README-size visual content and decoded PDF/PNG metadata. No participant photographs, private records or identifying filesystem paths."
-    },
-    {
-      "path": "figures/reride/artwork-original.png",
+      "path": "figures/abstracts/artwork-original.png",
       "sha256": "2906f3fb420f04e8948f651a7f0d987cc849ef00096153440b838414d736a639",
-      "rights": "Original conceptual illustration and authored TikZ annotations requested by repository owner. Publisher pages and original paper figures are excluded.",
-      "privacy": "Inspected full-size and README-size visual content and decoded PDF/PNG metadata. No participant photographs, private records or identifying filesystem paths."
+      "rights": "Owner-requested original diagrams, attributed published aggregate values, or generated conceptual line artwork. Required original illustration inputs and exact edit prompt retained. No publisher figure or manuscript PDF copied; no new reuse license assigned.",
+      "privacy": "Self-reviewed final and source artwork. Scientific labels and schematic subjects only; no participant photographs, credentials or machine paths. Final composite PNGs are one-bit black/white. Scenario characters and hardware are illustrative. Final exports rebuilt identically from consolidated sources."
     },
     {
-      "path": "figures/review-v1/assets/interact-2017.png",
-      "sha256": "71523cdd1610ab073776023bc6c9564c214308fd01664b02ad09c338e80daa5c",
-      "rights": "New owner-requested review composition. Original native geometry and/or previously reviewed accepted artwork; underlying publications cited in companion source notes. No publisher figure copied or new figure reuse license assigned.",
-      "privacy": "Review render inspected: scientific diagram, schematic interface or reported aggregate values only. No credentials, identifying machine paths or participant photographs. Native 9 pt black labels, one font family, page bounds and exact 4:3 output dimensions verified."
+      "path": "figures/abstracts/assets/interact-2017.png",
+      "sha256": "be74c13fcf37f6ac45736ead89a9921f33ae2852b738b2977ff817972ef6027a",
+      "rights": "Owner-requested original diagrams, attributed published aggregate values, or generated conceptual line artwork. Required original illustration inputs and exact edit prompt retained. No publisher figure or manuscript PDF copied; no new reuse license assigned.",
+      "privacy": "Self-reviewed final and source artwork. Scientific labels and schematic subjects only; no participant photographs, credentials or machine paths. Final composite PNGs are one-bit black/white. Scenario characters and hardware are illustrative. Final exports rebuilt identically from consolidated sources."
     },
     {
-      "path": "figures/review-v1/assets/project.png",
-      "sha256": "6ba036ea7827279f46c76df31b705d3445afd8cc1c735bd58cc7bd2c02fc05f2",
-      "rights": "New owner-requested review composition. Original native geometry and/or previously reviewed accepted artwork; underlying publications cited in companion source notes. No publisher figure copied or new figure reuse license assigned.",
-      "privacy": "Review render inspected: scientific diagram, schematic interface or reported aggregate values only. No credentials, identifying machine paths or participant photographs. Native 9 pt black labels, one font family, page bounds and exact 4:3 output dimensions verified."
+      "path": "figures/abstracts/assets/project.png",
+      "sha256": "4db888ab5ef462bc4ae0dd51bd461919ecac5a6c07b7895807b832ecd370cbc3",
+      "rights": "Owner-requested original diagrams, attributed published aggregate values, or generated conceptual line artwork. Required original illustration inputs and exact edit prompt retained. No publisher figure or manuscript PDF copied; no new reuse license assigned.",
+      "privacy": "Self-reviewed final and source artwork. Scientific labels and schematic subjects only; no participant photographs, credentials or machine paths. Final composite PNGs are one-bit black/white. Scenario characters and hardware are illustrative. Final exports rebuilt identically from consolidated sources."
     },
     {
-      "path": "figures/review-v1/assets/tei-2019.png",
-      "sha256": "10c6605b48c2f6b6dea0123f5a275893f31b581d9d086a0d35615776a0d034fb",
-      "rights": "New owner-requested review composition. Original native geometry and/or previously reviewed accepted artwork; underlying publications cited in companion source notes. No publisher figure copied or new figure reuse license assigned.",
-      "privacy": "Review render inspected: scientific diagram, schematic interface or reported aggregate values only. No credentials, identifying machine paths or participant photographs. Native 9 pt black labels, one font family, page bounds and exact 4:3 output dimensions verified."
+      "path": "figures/abstracts/assets/tei-2019.png",
+      "sha256": "29fb32ab46e6a4227c2e9f91c54a050d2f4eba5441e29609ae066f1b53eb3590",
+      "rights": "Owner-requested original diagrams, attributed published aggregate values, or generated conceptual line artwork. Required original illustration inputs and exact edit prompt retained. No publisher figure or manuscript PDF copied; no new reuse license assigned.",
+      "privacy": "Self-reviewed final and source artwork. Scientific labels and schematic subjects only; no participant photographs, credentials or machine paths. Final composite PNGs are one-bit black/white. Scenario characters and hardware are illustrative. Final exports rebuilt identically from consolidated sources."
     }
   ]
 }

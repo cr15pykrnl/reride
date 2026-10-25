@@ -1,0 +1,108 @@
+{
+  "refined_brief": "Source-grounded 4:3 black/white abstracts with framed subfigures, appropriate quantitative plots, explained terminology, consistent spacing and right-aligned source credits.",
+  "central_argument": "The 2017 demonstration makes seat-pressure history available during and after a ride; the 2019 modular design combines pressure and camera geometry for contextual posture feedback.",
+  "source_dois": [
+    "10.1007/978-3-319-68059-0_43",
+    "10.1145/3294109.3300986"
+  ],
+  "source_evidence": "INTERACT 2017, pages 421-422: two under-seat force-sensitive resistors feed a Genuino microcontroller, Bluetooth Low Energy dashboard and mobile-internet remote storage. Integer readings 0-1023 are divided into four equal bins; dashboard views show the past three minutes and whole-ride pressure variation with duration. TEI 2019, pages 445-449: six seat force-sensitive resistors and two analog-to-digital converters, a camera tracking four reference markers (helmet/head top, chin, both shoulders), separate Raspberry Pi modules and a central Raspberry Pi connected through WebSockets. Relative upper-body geometry and seat-load distribution describe forward/back and left/right lean, shoulder tilt and head stoop. Contour feedback compares current posture to a reference, with duration/history relevant to interpretation.",
+  "limitations": "The 2017 bins are pressure-reading intervals, not posture classes. Pattern fills are a new monochrome explanatory key, not a claim about the original interface appearance. Traces, contours and hardware drawings are schematic. The 2019 paper reports modules and a design; full integration, riding evaluation and learning remain proposed future work in that paper. The project overview does not pool evaluation results or claim health efficacy. Four markers are camera-tracked reference points, not four additional sensors.",
+  "canvas_mm": [
+    240,
+    180
+  ],
+  "png_pixels": [
+    2400,
+    1800
+  ],
+  "review_pixels": [
+    960,
+    720
+  ],
+  "native_font": "9 pt Helvetica-compatible / NimbusSanL-Regu",
+  "rendering": {
+    "mode": "--bilevel",
+    "uniform_luminance_threshold": 0.85,
+    "final_png_values": [
+      0,
+      255
+    ],
+    "geometry": "Native TikZ; gnuplot panels composed at native size; source artwork preserved"
+  },
+  "verification": "All selected abstracts and standalone plots rebuilt from the consolidated portable sources; all eight PNG SHA-256 digests match the reviewed outputs exactly. Native 9 pt Helvetica-compatible labels, bounds and one-bit exports verified. No new scientific experiment or model run.",
+  "image_generation": "No new image generation; existing label-free artwork reused where applicable.",
+  "reused_inputs": [
+    {
+      "path": "figures/abstracts/artwork-original.png",
+      "sha256": "2906f3fb420f04e8948f651a7f0d987cc849ef00096153440b838414d736a639"
+    }
+  ],
+  "schema_version": 1,
+  "status": "Selected graphical abstracts; prepared for owner-reviewed commits. No new experiment or simulation.",
+  "authoring_files": [
+    {
+      "path": "README.md",
+      "sha256": "1d00c5004f3952012546f5c4aaef89be9bfd0eedbc832646bef32c86161da35c"
+    },
+    {
+      "path": "artwork-original.png",
+      "sha256": "2906f3fb420f04e8948f651a7f0d987cc849ef00096153440b838414d736a639",
+      "pixels": [
+        1690,
+        931
+      ],
+      "png_bit_depth": 8,
+      "png_color_type": 2
+    },
+    {
+      "path": "assets/interact-2017.png",
+      "sha256": "be74c13fcf37f6ac45736ead89a9921f33ae2852b738b2977ff817972ef6027a",
+      "pixels": [
+        2400,
+        1800
+      ],
+      "png_bit_depth": 1,
+      "png_color_type": 0
+    },
+    {
+      "path": "assets/project.png",
+      "sha256": "4db888ab5ef462bc4ae0dd51bd461919ecac5a6c07b7895807b832ecd370cbc3",
+      "pixels": [
+        2400,
+        1800
+      ],
+      "png_bit_depth": 1,
+      "png_color_type": 0
+    },
+    {
+      "path": "assets/tei-2019.png",
+      "sha256": "29fb32ab46e6a4227c2e9f91c54a050d2f4eba5441e29609ae066f1b53eb3590",
+      "pixels": [
+        2400,
+        1800
+      ],
+      "png_bit_depth": 1,
+      "png_color_type": 0
+    },
+    {
+      "path": "build.sh",
+      "sha256": "4d631a35234fe938d28eedd5e61f5e263d82e8ce40ac9ca6abc3cb578af055c8"
+    },
+    {
+      "path": "interact-2017.tex",
+      "sha256": "1eacf992733afe14f6a61ace11cd8e6c2f594d0f25ad6e6f39ab500780f50766"
+    },
+    {
+      "path": "project.tex",
+      "sha256": "26babe72cb8e5f6695325003ec520d8c539979dfca0ba664e290a4173242cf87"
+    },
+    {
+      "path": "tei-2019.tex",
+      "sha256": "ca161c6bde2858ef0d6b0c10a53ee38ed95d9c3030a534572bc40fd8053250cc"
+    },
+    {
+      "path": "visuals.tex",
+      "sha256": "fba0ab7ff63ace9c15ce4a51f2f9af1b5beb6d0e5f5de4e63ad2e4730468c1c0"
+    }
+  ]
+}
