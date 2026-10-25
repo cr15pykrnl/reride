@@ -71,6 +71,51 @@
       "pattern": "release-manifest.json",
       "access": "public",
       "reason": "Portable artifact classifications and checksum-bound rights/privacy reviews."
+    },
+    {
+      "pattern": "figures/review-v1/README.md",
+      "access": "public",
+      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+    },
+    {
+      "pattern": "figures/review-v1/assets/interact-2017.png",
+      "access": "public",
+      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+    },
+    {
+      "pattern": "figures/review-v1/assets/project.png",
+      "access": "public",
+      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+    },
+    {
+      "pattern": "figures/review-v1/assets/tei-2019.png",
+      "access": "public",
+      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+    },
+    {
+      "pattern": "figures/review-v1/interact-2017.tex",
+      "access": "public",
+      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+    },
+    {
+      "pattern": "figures/review-v1/project.tex",
+      "access": "public",
+      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+    },
+    {
+      "pattern": "figures/review-v1/provenance.json",
+      "access": "public",
+      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+    },
+    {
+      "pattern": "figures/review-v1/tei-2019.tex",
+      "access": "public",
+      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+    },
+    {
+      "pattern": "figures/review-v1/visuals.tex",
+      "access": "public",
+      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
     }
   ],
   "reviews": [
@@ -91,6 +136,24 @@
       "sha256": "2906f3fb420f04e8948f651a7f0d987cc849ef00096153440b838414d736a639",
       "rights": "Original conceptual illustration and authored TikZ annotations requested by repository owner. Publisher pages and original paper figures are excluded.",
       "privacy": "Inspected full-size and README-size visual content and decoded PDF/PNG metadata. No participant photographs, private records or identifying filesystem paths."
+    },
+    {
+      "path": "figures/review-v1/assets/interact-2017.png",
+      "sha256": "71523cdd1610ab073776023bc6c9564c214308fd01664b02ad09c338e80daa5c",
+      "rights": "New owner-requested review composition. Original native geometry and/or previously reviewed accepted artwork; underlying publications cited in companion source notes. No publisher figure copied or new figure reuse license assigned.",
+      "privacy": "Review render inspected: scientific diagram, schematic interface or reported aggregate values only. No credentials, identifying machine paths or participant photographs. Native 9 pt black labels, one font family, page bounds and exact 4:3 output dimensions verified."
+    },
+    {
+      "path": "figures/review-v1/assets/project.png",
+      "sha256": "6ba036ea7827279f46c76df31b705d3445afd8cc1c735bd58cc7bd2c02fc05f2",
+      "rights": "New owner-requested review composition. Original native geometry and/or previously reviewed accepted artwork; underlying publications cited in companion source notes. No publisher figure copied or new figure reuse license assigned.",
+      "privacy": "Review render inspected: scientific diagram, schematic interface or reported aggregate values only. No credentials, identifying machine paths or participant photographs. Native 9 pt black labels, one font family, page bounds and exact 4:3 output dimensions verified."
+    },
+    {
+      "path": "figures/review-v1/assets/tei-2019.png",
+      "sha256": "10c6605b48c2f6b6dea0123f5a275893f31b581d9d086a0d35615776a0d034fb",
+      "rights": "New owner-requested review composition. Original native geometry and/or previously reviewed accepted artwork; underlying publications cited in companion source notes. No publisher figure copied or new figure reuse license assigned.",
+      "privacy": "Review render inspected: scientific diagram, schematic interface or reported aggregate values only. No credentials, identifying machine paths or participant photographs. Native 9 pt black labels, one font family, page bounds and exact 4:3 output dimensions verified."
     }
   ]
 }

@@ -1,0 +1,64 @@
+{
+  "review_version": 1,
+  "selection": "Owner feedback pending; existing selected figure preserved",
+  "refined_brief": "Prepare one abstract for the implemented 2017 platform, one for the 2019 BANk architecture/modules, and a project overview showing their relationship across before/during/after commuting. Keep evidence and development scope specific to each paper.",
+  "source_dois": [
+    "10.1007/978-3-319-68059-0_43",
+    "10.1145/3294109.3300986"
+  ],
+  "source_evidence": "INTERACT 2017, sections 2\u20134 and figures 1\u20132: two square FSRs, Genuino, Bluetooth, live dashboard, remote retrieval; source reports 1024 sensor levels and four feedback segments. TEI 2019, figures 2 and 5\u20138: six seat-pressure sites, four upper-body fiducials, Raspberry Pi sensing and central modules, WebSockets, and changing-shape feedback. The project view shows an architectural extension, not pooled validation.",
+  "limitations": "The existing accepted label-free raster artwork is reused through TikZ viewports, with its proportions preserved; pixels are not edited or upscaled. Markers, sensors, UI glyphs and aggregate paths are native geometry. UI traces are schematic, not ride measurements. Dashed camera arrow denotes optical observation. Full integration, evaluation with ride data and an LSTM model were future work in the 2019 paper. No posture accuracy, clinical benefit or measured behaviour change is invented.",
+  "canvas_mm": [
+    240,
+    180
+  ],
+  "canvas_ratio": "4:3",
+  "png_pixels": [
+    2400,
+    1800
+  ],
+  "review_pixels": [
+    960,
+    720
+  ],
+  "native_font_size_pt": 9,
+  "font_family": "NimbusSanL-Regu, Helvetica-compatible",
+  "style": "Black linework on white; functional black data marks; no decorative shading",
+  "reused_inputs": [
+    {
+      "path": "figures/reride/artwork-original.png",
+      "sha256": "2906f3fb420f04e8948f651a7f0d987cc849ef00096153440b838414d736a639"
+    }
+  ],
+  "image_generation": "No new image generation; existing accepted artwork reused where applicable",
+  "authoring_files": [
+    {
+      "path": "assets/interact-2017.png",
+      "sha256": "71523cdd1610ab073776023bc6c9564c214308fd01664b02ad09c338e80daa5c"
+    },
+    {
+      "path": "assets/project.png",
+      "sha256": "6ba036ea7827279f46c76df31b705d3445afd8cc1c735bd58cc7bd2c02fc05f2"
+    },
+    {
+      "path": "assets/tei-2019.png",
+      "sha256": "10c6605b48c2f6b6dea0123f5a275893f31b581d9d086a0d35615776a0d034fb"
+    },
+    {
+      "path": "interact-2017.tex",
+      "sha256": "8fbcfc917508de1b9fa0e8c8bfbec2789d52551f98975dedd23290e480d22fcf"
+    },
+    {
+      "path": "project.tex",
+      "sha256": "5bc98d6a686f9d3e4d5437d08cecbc8e56606ac7722ca8417ad9dd1a595c7397"
+    },
+    {
+      "path": "tei-2019.tex",
+      "sha256": "f6ada44bb6e3cfe68cd06fcbcfc42300dd172d7f02867642754d1a80de274eb4"
+    },
+    {
+      "path": "visuals.tex",
+      "sha256": "7f801e34d111b8b0ab8525a7f62f4b8479169d0b5268d953890dbdd3ddaa7c20"
+    }
+  ]
+}
