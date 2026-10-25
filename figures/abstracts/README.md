@@ -4,9 +4,9 @@ The 2017 demonstration makes seat-pressure history available during and after a 
 
 ## Figures
 
-- [interact-2017](assets/interact-2017.png): editable source `interact-2017.tex`.
-- [tei-2019](assets/tei-2019.png): editable source `tei-2019.tex`.
-- [project](assets/project.png): editable source `project.tex`.
+- [interact-2017](assets/interact-2017.svg): editable source `interact-2017.tex`.
+- [tei-2019](assets/tei-2019.svg): editable source `tei-2019.tex`.
+- [project](assets/project.svg): editable source `project.tex`.
 
 ## Scientific evidence
 
@@ -29,15 +29,15 @@ From the repository root:
 sh figures/abstracts/build.sh
 ```
 
-The script regenerates the selected PNGs. Generated PDF intermediates, native
+The script regenerates the selected SVGs and anti-aliased PNG fallbacks. Generated PDF intermediates, native
 gnuplot exports and compiler logs stay in ignored `.local/figures/`; remove that
 folder after checking the outputs. The published package retains editable TikZ,
 plot scripts/data, required artwork, source evidence and checksums.
 
 Abstracts use a 240 × 180 mm canvas and export at 2400 × 1800 px (4:3), with
 960 × 720 px review views during builds. All native labels are 9 pt
-Helvetica-compatible. Final PNGs are strictly black/white. A uniform 0.85
-threshold is applied at export; original artwork inputs remain intact.
+Helvetica-compatible. Artwork and native labels remain black on white. PNG fallbacks use anti-aliased
+greyscale edges; no one-bit threshold is applied. Original artwork inputs remain intact.
 Informational dots, hatches, dash styles and markers encode categories.
 
 Inspect full-size and README-size renders after editing. Check scientific
@@ -45,3 +45,19 @@ meaning, units, marker counts, label clearance, padding, legend scope and
 bottom-right citations. A faithful replot is not an independent reproduction.
 No publisher figures or manuscript PDFs are included, and no new asset reuse
 license is asserted. Source data and illustrative content remain distinct.
+
+## Selected export formats
+
+SVG is the selected version embedded in the project README. Anti-aliased PNG
+fallbacks accompany each SVG. PDF intermediates stay in ignored local storage;
+no PDFs are published. Poppler's `pdftocairo` is required for SVG export.
+
+These SVGs combine scalable native labels/connectors with the original embedded
+bitmap illustrations. Those illustrations retain their resolution limit; exporting
+SVG does not vectorize them.
+
+PNG fallbacks: [interact-2017](assets/interact-2017.png) · [project](assets/project.png) · [tei-2019](assets/tei-2019.png)
+
+The owner reconfirmed the embedded-PNG illustration version on 26 October 2026.
+Tracing, centreline conversion and manual redraw trials were not selected. The
+normal build continues to use the original illustration PNGs.

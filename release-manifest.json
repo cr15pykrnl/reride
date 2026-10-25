@@ -96,6 +96,21 @@
       "pattern": "figures/abstracts/visuals.tex",
       "access": "public",
       "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
+    },
+    {
+      "pattern": "figures/abstracts/assets/interact-2017.svg",
+      "access": "public",
+      "reason": "Owner-selected SVG export of reviewed original graphical abstract; embedded artwork retains its existing attribution and rights."
+    },
+    {
+      "pattern": "figures/abstracts/assets/project.svg",
+      "access": "public",
+      "reason": "Owner-selected SVG export of reviewed original graphical abstract; embedded artwork retains its existing attribution and rights."
+    },
+    {
+      "pattern": "figures/abstracts/assets/tei-2019.svg",
+      "access": "public",
+      "reason": "Owner-selected SVG export of reviewed original graphical abstract; embedded artwork retains its existing attribution and rights."
     }
   ],
   "reviews": [
@@ -103,25 +118,43 @@
       "path": "figures/abstracts/artwork-original.png",
       "sha256": "2906f3fb420f04e8948f651a7f0d987cc849ef00096153440b838414d736a639",
       "rights": "Owner-requested original diagrams, attributed published aggregate values, or generated conceptual line artwork. Required original illustration inputs and exact edit prompt retained. No publisher figure or manuscript PDF copied; no new reuse license assigned.",
-      "privacy": "Self-reviewed final and source artwork. Scientific labels and schematic subjects only; no participant photographs, credentials or machine paths. Final composite PNGs are one-bit black/white. Scenario characters and hardware are illustrative. Final exports rebuilt identically from consolidated sources."
+      "privacy": "Self-reviewed final and source artwork. Scientific labels and schematic subjects only; no participant photographs, credentials or machine paths. Final composite PNGs now use anti-aliased edges. Scenario characters and hardware are illustrative. Final exports rebuilt identically from consolidated sources."
     },
     {
       "path": "figures/abstracts/assets/interact-2017.png",
-      "sha256": "be74c13fcf37f6ac45736ead89a9921f33ae2852b738b2977ff817972ef6027a",
-      "rights": "Owner-requested original diagrams, attributed published aggregate values, or generated conceptual line artwork. Required original illustration inputs and exact edit prompt retained. No publisher figure or manuscript PDF copied; no new reuse license assigned.",
-      "privacy": "Self-reviewed final and source artwork. Scientific labels and schematic subjects only; no participant photographs, credentials or machine paths. Final composite PNGs are one-bit black/white. Scenario characters and hardware are illustrative. Final exports rebuilt identically from consolidated sources."
+      "sha256": "b04763386357fb16a4e4cdfbcda8869662b38e730b92f2160c760b77a1467fcd",
+      "rights": "Owner-selected original conceptual artwork and attributed reported-value plots; no copied publisher figure or manuscript PDF; no new reuse licence assigned.",
+      "privacy": "Self-reviewed scientific labels and schematic subjects; no participant photographs, credentials or private machine paths. SVGs inspected for embedded content; labels and geometry preserved. PNG fallbacks use anti-aliased edges."
     },
     {
       "path": "figures/abstracts/assets/project.png",
-      "sha256": "4db888ab5ef462bc4ae0dd51bd461919ecac5a6c07b7895807b832ecd370cbc3",
-      "rights": "Owner-requested original diagrams, attributed published aggregate values, or generated conceptual line artwork. Required original illustration inputs and exact edit prompt retained. No publisher figure or manuscript PDF copied; no new reuse license assigned.",
-      "privacy": "Self-reviewed final and source artwork. Scientific labels and schematic subjects only; no participant photographs, credentials or machine paths. Final composite PNGs are one-bit black/white. Scenario characters and hardware are illustrative. Final exports rebuilt identically from consolidated sources."
+      "sha256": "cbe1a11f365891560c3d9d68a1d916f4666dcdd1ffcb4d203346a4d4fd8d76a9",
+      "rights": "Owner-selected original conceptual artwork and attributed reported-value plots; no copied publisher figure or manuscript PDF; no new reuse licence assigned.",
+      "privacy": "Self-reviewed scientific labels and schematic subjects; no participant photographs, credentials or private machine paths. SVGs inspected for embedded content; labels and geometry preserved. PNG fallbacks use anti-aliased edges."
     },
     {
       "path": "figures/abstracts/assets/tei-2019.png",
-      "sha256": "29fb32ab46e6a4227c2e9f91c54a050d2f4eba5441e29609ae066f1b53eb3590",
-      "rights": "Owner-requested original diagrams, attributed published aggregate values, or generated conceptual line artwork. Required original illustration inputs and exact edit prompt retained. No publisher figure or manuscript PDF copied; no new reuse license assigned.",
-      "privacy": "Self-reviewed final and source artwork. Scientific labels and schematic subjects only; no participant photographs, credentials or machine paths. Final composite PNGs are one-bit black/white. Scenario characters and hardware are illustrative. Final exports rebuilt identically from consolidated sources."
+      "sha256": "a2009a626b5455d688f4d23d0c078f5bc7e1a155bc65943ba62d5076ba1c81a2",
+      "rights": "Owner-selected original conceptual artwork and attributed reported-value plots; no copied publisher figure or manuscript PDF; no new reuse licence assigned.",
+      "privacy": "Self-reviewed scientific labels and schematic subjects; no participant photographs, credentials or private machine paths. SVGs inspected for embedded content; labels and geometry preserved. PNG fallbacks use anti-aliased edges."
+    },
+    {
+      "path": "figures/abstracts/assets/interact-2017.svg",
+      "sha256": "c4e6edc0f13060cb2e6cd9fb01c2daae8771f8c213962b446d4b184bacdff993",
+      "rights": "Owner-selected original conceptual artwork and attributed reported-value plots; no copied publisher figure or manuscript PDF; no new reuse licence assigned.",
+      "privacy": "Self-reviewed scientific labels and schematic subjects; no participant photographs, credentials or private machine paths. SVGs inspected for embedded content; labels and geometry preserved. PNG fallbacks use anti-aliased edges."
+    },
+    {
+      "path": "figures/abstracts/assets/project.svg",
+      "sha256": "406e66b35d184c09f5fbd285f0560be4d28d2b318737b4b41b42a34f4112ae8e",
+      "rights": "Owner-selected original conceptual artwork and attributed reported-value plots; no copied publisher figure or manuscript PDF; no new reuse licence assigned.",
+      "privacy": "Self-reviewed scientific labels and schematic subjects; no participant photographs, credentials or private machine paths. SVGs inspected for embedded content; labels and geometry preserved. PNG fallbacks use anti-aliased edges."
+    },
+    {
+      "path": "figures/abstracts/assets/tei-2019.svg",
+      "sha256": "5959feacba09f9b11515533b5535f5fd168716747484d6aab288ffc1c65e61b5",
+      "rights": "Owner-selected original conceptual artwork and attributed reported-value plots; no copied publisher figure or manuscript PDF; no new reuse licence assigned.",
+      "privacy": "Self-reviewed scientific labels and schematic subjects; no participant photographs, credentials or private machine paths. SVGs inspected for embedded content; labels and geometry preserved. PNG fallbacks use anti-aliased edges."
     }
   ]
 }
