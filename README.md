@@ -9,7 +9,7 @@ The two publications address a shared question: **how can posture sensing and
 feedback be integrated into the experience of riding, and support reflection
 before, during and after a commute?**
 
-![ReRide graphical abstract: the 2017 seat-pressure sensing and dashboard feedback platform, alongside the 2019 BANk architecture combining seat-pressure and camera sensing.](figures/abstracts/assets/project.svg)
+[![ReRide graphical abstract: the 2017 seat-pressure sensing and dashboard feedback platform, alongside the 2019 BANk architecture combining seat-pressure and camera sensing.](figures/abstracts/assets/project.png)](figures/abstracts/assets/project.svg)
 
 *ReRide connects posture sensing with feedback during a commute and data for
 later reflection. Top: the INTERACT 2017 demonstration. Bottom: the TEI 2019
@@ -21,7 +21,7 @@ and evaluation as future work.* [Editable figures and source notes](figures/abst
 
 ### INTERACT 2017
 
-![INTERACT 2017 graphical abstract](figures/abstracts/assets/interact-2017.svg)
+[![INTERACT 2017 graphical abstract](figures/abstracts/assets/interact-2017.png)](figures/abstracts/assets/interact-2017.svg)
 
 **ReRide: A Platform to Explore Interaction with Personal Data Before, During,
 and After Motorcycle Commuting**
@@ -43,7 +43,7 @@ The motorcycle could soon be the new frontier for the exploration of human inter
 
 ### TEI 2019
 
-![TEI 2019 graphical abstract](figures/abstracts/assets/tei-2019.svg)
+[![TEI 2019 graphical abstract](figures/abstracts/assets/tei-2019.png)](figures/abstracts/assets/tei-2019.svg)
 
 **ReRide: A Bike Area Network for Embodied Self-monitoring during Motorbike
 Commute**
