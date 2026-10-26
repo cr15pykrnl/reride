@@ -99,6 +99,8 @@ remain questions for evaluation.
 
 ### INTERACT 2017
 
+[Full reference lists and verification notes](bibliography/README.md).
+
 ```bibtex
 @inproceedings{bagalkot2017reride,
   author = {Bagalkot, Naveen and Sokoler, Tomas and Shaikh, Riyaj and
