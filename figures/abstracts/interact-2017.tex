@@ -4,14 +4,15 @@
 \renewcommand{\familydefault}{\sfdefault}
 \input{visuals.tex}
 \usetikzlibrary{patterns}
+\tikzset{frameone/.style={line width=1.5pt,line join=miter,line cap=butt},frametwo/.style={line width=1pt,line join=miter,line cap=butt}}
 \begin{document}
-\begin{tikzpicture}[x=1mm,y=1mm,line width=.65pt,line cap=round,line join=round]
+\begin{tikzpicture}[x=1mm,y=1mm,line width=.65pt,line cap=round,line join=miter]
 \path[use as bounding box] (0,0) rectangle (240,180);
 
-\draw (8,66) rectangle (74,174) (78,66) rectangle (145,174) (149,66) rectangle (232,174);
-\node at (41,169) {A. Sense the commute};
-\node at (111.5,169) {B. Read and transmit};
-\node at (190.5,169) {C. Glance and retrieve};
+\draw[frameone] (3,66) rectangle (74,177) (78,66) rectangle (145,177) (149,66) rectangle (237,177);
+\node at (41,172) {A. Sense the commute};
+\node at (111.5,172) {B. Read and transmit};
+\node at (190.5,172) {C. Glance and retrieve};
 \artpiece{35}{48}{380}{328}{14}{117}{54}
 \artpiece{130}{330}{315}{700}{32}{72}{18}
 \foreach \xx in {38.2,44}{\draw[fill=white] (\xx-1,87.7) rectangle (\xx+1,89.7);}
@@ -20,7 +21,7 @@
 \node at (111.5,125) {Genuino microcontroller};
 \draw[flow] (50,90)--(84,90)--(84,142)--(89,142);
 \node[align=center] at (111.5,111) {Read two channels\\and add timestamps};
-\draw (88,78) rectangle (135,99);
+\draw[frametwo] (88,78) rectangle (135,99);
 \draw (91,84)--(96,84)--(96,94)--(100,94)--(100,88)--(106,88);
 \draw[dashed] (110,84)--(115,84)--(115,90)--(120,90)--(120,95)--(131,95);
 \node at (111.5,72) {0--1023 sensor readings};
@@ -35,15 +36,15 @@
 \node at (190.5,70) {Remote storage and retrieval};
 % Labels after all connectors; a crossing label masks the line underneath.
 \node[wirelabel] at (111.5,159) {Bluetooth Low Energy};
-\draw (8,23) rectangle (232,62);
-\node[anchor=west] at (12,57) {D. Four equal bins of pressure readings: how dashboard marks are encoded};
+\draw[frameone] (3,23) rectangle (237,62);
+\node[anchor=west] at (7,57) {D. Four equal bins of pressure readings: how dashboard marks are encoded};
 \foreach \xx/\lo/\hi/\pat in {16/0/255/north east lines,70/256/511/north west lines,124/512/767/crosshatch,178/768/1023/dots}{
  \draw[pattern=\pat,pattern color=black] (\xx,37) rectangle (\xx+46,49);
  \node at (\xx+23,32) {\lo--\hi};
 }
 \node at (120,26.5) {Schematic pattern key for pressure bins; these are not posture classes};
-\draw (8,3) rectangle (232,20);
-\node[anchor=west,align=left] at (12,11) {Implemented demonstration.\\Supports reflection; health benefits were not evaluated.};
-\node[anchor=east,align=right] at (228,11) {Bagalkot and colleagues (2017), 420--423.\\Human--Computer Interaction: INTERACT; source: 421--422.\\Artwork: conceptual reconstruction; traces are illustrative.};
+\draw[frameone] (3,3) rectangle (237,19);
+\node[anchor=west,align=left] at (7,11) {Implemented demonstration.\\Supports reflection; health benefits were not evaluated.};
+\node[anchor=east,align=right] at (233,11) {Bagalkot and colleagues (2017), 420--423.\\Human--Computer Interaction: INTERACT; source: 421--422.\\Artwork: conceptual reconstruction; traces are illustrative.};
 \end{tikzpicture}
 \end{document}

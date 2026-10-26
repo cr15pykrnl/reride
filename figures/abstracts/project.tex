@@ -4,12 +4,13 @@
 \renewcommand{\familydefault}{\sfdefault}
 \input{visuals.tex}
 \usetikzlibrary{patterns}
+\tikzset{frameone/.style={line width=1.5pt,line join=miter,line cap=butt},frametwo/.style={line width=1pt,line join=miter,line cap=butt}}
 \begin{document}
-\begin{tikzpicture}[x=1mm,y=1mm,line width=.65pt,line cap=round,line join=round]
+\begin{tikzpicture}[x=1mm,y=1mm,line width=.65pt,line cap=round,line join=miter]
 \path[use as bounding box] (0,0) rectangle (240,180);
 
-\draw (8,101) rectangle (232,174);
-\node[anchor=west] at (12,169) {A. 2017 / Human--Computer Interaction: INTERACT / implemented demonstration};
+\draw[frameone] (3,101) rectangle (237,177);
+\node[anchor=west] at (7,172) {A. 2017 / Human--Computer Interaction: INTERACT / implemented demonstration};
 \artpiece{35}{48}{380}{328}{13}{121}{37}
 \artpiece{130}{330}{315}{700}{61}{121}{16}
 \foreach \xx in {66.5,71.5}{\draw[fill=white] (\xx-1,135) rectangle (\xx+1,137);}
@@ -26,17 +27,17 @@
 \node[align=center] at (166,115) {Past 3 minutes\\and whole-ride variation};
 \node[align=center] at (214,115) {Remote\\retrieval};
 \node at (120,105.5) {0--1023 readings / four pressure bins / live feedback followed by reflection};
-\draw (8,28) rectangle (232,97);
-\node[anchor=west] at (12,92) {B. 2019 / Tangible, Embedded and Embodied Interaction / Bike Area Network};
+\draw[frameone] (3,28) rectangle (237,97);
+\node[anchor=west] at (7,92) {B. 2019 / Tangible, Embedded and Embodied Interaction / Bike Area Network};
 \artpiece{1170}{45}{1500}{345}{12}{50}{30}
 \foreach \xx/\yy in {27/73.3,27/60.4,17/55.5,37.7/55.5}{\begin{scope}[shift={(\xx,\yy)},scale=.7]\marker{0}{0}\end{scope}}
 \artpiece{130}{330}{315}{700}{55}{47}{17}
 \foreach \yy in {62,67.5,73}{\foreach \xx in {61.1,65.9}{\draw[fill=white] (\xx,\yy) circle (.9);}}
-\draw (88,64) rectangle (133,82) (88,40) rectangle (133,58);
+\draw[frametwo] (88,64) rectangle (133,82) (88,40) rectangle (133,58);
 \node[align=center] at (110.5,73) {Camera +\\Raspberry Pi};
 \node[align=center] at (110.5,49) {Pressure conversion +\\Raspberry Pi};
 \draw[flow] (42,70)--(47,70)--(47,85)--(84,85)--(84,78)--(88,78) (72,58)--(88,49);
-\draw (154,50) rectangle (190,72);\node[align=center] at (172,61) {Central\\Raspberry Pi};
+\draw[frametwo] (154,50) rectangle (190,72);\node[align=center] at (172,61) {Central\\Raspberry Pi};
 \draw[flow] (133,73)--(143,73)--(143,65)--(154,65) (133,49)--(143,49)--(143,56)--(154,56);
 \artpiece{1490}{580}{1645}{868}{207}{44}{18}
 \begin{scope}[shift={(216,61)},scale=.5]\phoneglyph{0}{0}\end{scope}
@@ -48,8 +49,8 @@
 \node[align=center] at (172,39) {Combine load distribution\\with upper-body geometry};
 \node at (216,39) {Glanceable contour};
 \node at (148,31.5) {Modules reported; full integration, learning and ride evaluation proposed};
-\draw (8,3) rectangle (232,24);
-\node[anchor=west,align=left] at (12,13.5) {Shared idea: personal data supports\\on-ride awareness and later reflection.\\Illustrations show system concepts, not measured benefits.};
-\node[anchor=east,align=right] at (228,13.5) {Bagalkot and colleagues (2017), 420--423; (2019), 443--450.\\Sources: 2017 paper, 421--422; 2019 paper, 445--449.\\Artwork: source-based conceptual reconstruction.};
+\draw[frameone] (3,3) rectangle (237,24);
+\node[anchor=west,align=left] at (7,13.5) {Shared idea: personal data supports\\on-ride awareness and later reflection.\\Illustrations show system concepts, not measured benefits.};
+\node[anchor=east,align=right] at (233,13.5) {Bagalkot and colleagues (2017), 420--423; (2019), 443--450.\\Sources: 2017 paper, 421--422; 2019 paper, 445--449.\\Artwork: source-based conceptual reconstruction.};
 \end{tikzpicture}
 \end{document}

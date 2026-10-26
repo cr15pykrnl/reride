@@ -48,7 +48,7 @@
   "authoring_files": [
     {
       "path": "README.md",
-      "sha256": "8a7bf5066a03d34ef783b2adb31e683ca5a459f83f07fed7799a7c67df5d2b24"
+      "sha256": "6d9b44a1dbc96e98558d78eb11173871a28589b7000ca24abb8c23c27f771916"
     },
     {
       "path": "artwork-original.png",
@@ -62,7 +62,7 @@
     },
     {
       "path": "assets/interact-2017.png",
-      "sha256": "b04763386357fb16a4e4cdfbcda8869662b38e730b92f2160c760b77a1467fcd",
+      "sha256": "af9caa006efbe515473d6eac2bfba70ec55e52224ddf47498b6bbef39086f9ee",
       "pixels": [
         2400,
         1800
@@ -72,12 +72,12 @@
     },
     {
       "path": "assets/interact-2017.svg",
-      "sha256": "c4e6edc0f13060cb2e6cd9fb01c2daae8771f8c213962b446d4b184bacdff993",
+      "sha256": "9979fc30469f3aeea4ecc897ef810fcdd46e253436532add83efc5d1947d7e93",
       "embedded_raster_images": 1
     },
     {
       "path": "assets/project.png",
-      "sha256": "cbe1a11f365891560c3d9d68a1d916f4666dcdd1ffcb4d203346a4d4fd8d76a9",
+      "sha256": "00fdac6e7eafd953b80f9117abbaf12c52a70f840d41ee4c54208683d9881bc0",
       "pixels": [
         2400,
         1800
@@ -87,12 +87,12 @@
     },
     {
       "path": "assets/project.svg",
-      "sha256": "406e66b35d184c09f5fbd285f0560be4d28d2b318737b4b41b42a34f4112ae8e",
+      "sha256": "49e1c0768bff6e8de785f726d41e22aaa167bd71becf7d6d2706ba60b52886b4",
       "embedded_raster_images": 1
     },
     {
       "path": "assets/tei-2019.png",
-      "sha256": "a2009a626b5455d688f4d23d0c078f5bc7e1a155bc65943ba62d5076ba1c81a2",
+      "sha256": "1fadf2d6661081d08aae479c33fcdfc3faba4a45eba0b4ff56c5403542002f42",
       "pixels": [
         2400,
         1800
@@ -102,7 +102,7 @@
     },
     {
       "path": "assets/tei-2019.svg",
-      "sha256": "5959feacba09f9b11515533b5535f5fd168716747484d6aab288ffc1c65e61b5",
+      "sha256": "36acaef98bab51ac7c8f9ab5437995d50a75b31659a7ce8d58eb81167c40d849",
       "embedded_raster_images": 1
     },
     {
@@ -111,15 +111,15 @@
     },
     {
       "path": "interact-2017.tex",
-      "sha256": "1eacf992733afe14f6a61ace11cd8e6c2f594d0f25ad6e6f39ab500780f50766"
+      "sha256": "c4009789ff581344dfcc2f3ab30ed908b46d44f001236e9f0695588483ce3204"
     },
     {
       "path": "project.tex",
-      "sha256": "26babe72cb8e5f6695325003ec520d8c539979dfca0ba664e290a4173242cf87"
+      "sha256": "006722f5abcffb55f1fec7dd2ef8a3e3f20d42715a4cf3b115c0cff9f7c3c9de"
     },
     {
       "path": "tei-2019.tex",
-      "sha256": "ca161c6bde2858ef0d6b0c10a53ee38ed95d9c3030a534572bc40fd8053250cc"
+      "sha256": "4bc7a5c1f2bbfb17b57d707ed2281c1a9ad1e42893d9286736ab5f9a6ba89020"
     },
     {
       "path": "visuals.tex",
@@ -132,5 +132,56 @@
     "rejected_trials": "Automatic outlines, centreline strokes, VTracer and manual redraw proofs were not selected.",
     "build": "Original PNG dependencies retained; selected exports unchanged."
   },
-  "readme_display": "Opaque white-background PNG preview linked to the corresponding SVG; artwork exports unchanged."
+  "readme_display": "Opaque white-background PNG preview linked to the corresponding SVG; artwork exports unchanged.",
+  "frame_layout": {
+    "page_outer_margin_mm": 3,
+    "main_panel_gutter_mm": 4,
+    "audit": "All exported PNG outer ink margins measured equal to within one pixel; renderer checks native font size and page bounds. Visual review covers nested clearances and optical balance.",
+    "exports": {
+      "interact-2017.png": {
+        "pixels": [
+          2400,
+          1800
+        ],
+        "visible_ink_margins_px": [
+          27,
+          27,
+          27,
+          27
+        ],
+        "sha256": "af9caa006efbe515473d6eac2bfba70ec55e52224ddf47498b6bbef39086f9ee"
+      },
+      "project.png": {
+        "pixels": [
+          2400,
+          1800
+        ],
+        "visible_ink_margins_px": [
+          27,
+          27,
+          27,
+          27
+        ],
+        "sha256": "00fdac6e7eafd953b80f9117abbaf12c52a70f840d41ee4c54208683d9881bc0"
+      },
+      "tei-2019.png": {
+        "pixels": [
+          2400,
+          1800
+        ],
+        "visible_ink_margins_px": [
+          27,
+          27,
+          27,
+          27
+        ],
+        "sha256": "1fadf2d6661081d08aae479c33fcdfc3faba4a45eba0b4ff56c5403542002f42"
+      }
+    },
+    "border_width_pt": {
+      "main": 1.5,
+      "nested": 1
+    },
+    "corner_join": "Square miter joins; frame caps butt."
+  }
 }

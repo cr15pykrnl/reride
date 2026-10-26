@@ -61,3 +61,9 @@ PNG fallbacks: [interact-2017](assets/interact-2017.png) · [project](assets/pro
 The owner reconfirmed the embedded-PNG illustration version on 26 October 2026.
 Tracing, centreline conversion and manual redraw trials were not selected. The
 normal build continues to use the original illustration PNGs.
+
+Outer frames use equal 3 mm page margins on every side, with 4 mm gutters
+between main panels/rows. Nested frames retain consistent visible clearances. Artwork proportions and native font sizes are preserved.
+
+Main frames use 1.5 pt borders; nested frames use 1 pt, with square miter joins. Plot axes and illustration
+strokes retain their independent weights.
